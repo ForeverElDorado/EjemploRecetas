@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pagina01');
+});
+Route::get('/pagina02/{tipo}', function ($tipo) {
+    return view('pagina02', ['tipo'=>$tipo]);
 });
