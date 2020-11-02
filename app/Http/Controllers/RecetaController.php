@@ -14,7 +14,7 @@ class RecetaController extends Controller
     }
     
     public function carga_plato($tipo){
-        return view('recetas')->with('recetas', Recetas::where('tipo', $tipo)->orderBy('id')->limit(1)->get())
+        return view('recetas')->with('recetas', Recetas::where('tipo', $tipo)->orderBy('id')->get())
                                ->with('tipo', $tipo);
 
     }

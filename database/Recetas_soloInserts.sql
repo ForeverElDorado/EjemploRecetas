@@ -11,4 +11,6 @@ INSERT INTO `recetas` (`id`, `tipo`, `nombre`) VALUES
 (10, 'Platos', 'Pasta Carbonara'),
 (11, 'Postres', 'Tarta de Limon'),
 (12, 'Postres', 'Tarta de Naranja'),
-(13, 'Postres', 'Helado de Platano');
+(13, 'Postres', 'Helado de Platano'),
+(14, 'Postres', 'Proximamente'),
+(15, 'Postres', 'Proximamente');

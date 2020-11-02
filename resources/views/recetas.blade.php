@@ -15,15 +15,15 @@
         </div>
         <div class="col-6">
         <button  class = " btn btn-block btn-primary " > {{$recetas[0]->nombre}} </button >
-            <Br><br>
-            <button  class = " btn btn-block btn-primary " > {{$recetas[0]->nombre}} </button >
-            <Br><br>
-            <button  class = " btn btn-block btn-primary " > {{$recetas[0]->nombre}} </button >
-            <Br><br>
-            <button  class = " btn btn-block btn-primary " > {{$recetas[0]->nombre}} </button >
-            <Br><br>
-            <button  class = " btn btn-block btn-primary " > {{$recetas[0]->nombre}} </button >
-            <Br><br>
+            <Br>
+            <button  class = " btn btn-block btn-primary " > {{$recetas[1]->nombre}} </button >
+            <Br>
+            <button  class = " btn btn-block btn-primary " > {{$recetas[2]->nombre}} </button >
+            <Br>
+            <button  class = " btn btn-block btn-primary " > {{$recetas[3]->nombre}} </button >
+            <Br>
+            <button  class = " btn btn-block btn-primary " > {{$recetas[4]->nombre}} </button >
+            <Br>
         </div>
         <div class="col-3">
 
