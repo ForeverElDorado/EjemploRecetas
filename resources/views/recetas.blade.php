@@ -15,6 +15,8 @@
         </div>
         <div class="col-6">
         <button  class = " btn btn-block btn-primary " > {{$recetas[0]->nombre}} </button >
+        <a href="{{ url('tutorial') }}" class="btn btn-xs btn-info pull-rigth">{{$recetas[0]->nombre}} </a> 
+        <!-- //y aquí se pondría Crypt::encrypt(0) -->
             <Br>
             <button  class = " btn btn-block btn-primary " > {{$recetas[1]->nombre}} </button >
             <Br>
