@@ -1,20 +1,25 @@
 @extends('layouts.ejemplolayout')
 
-@section('titulo', 'Página 01 del proyecto')
+
+@section('titulo', 'RECETARIUM')
 
 
 @section('barralateral')
 
-<p> Esta parte está en la barra lateral</p>
 @endsection
 
 
 
 @section('contenido')
-<p> Este está en el body</p>
+    <h1>RECETARIUM</h1>
+    <br>
+<div class="container">
+    <p>El Recetarium es una página donde poder ver una serie de recetas faciles y sencillas
+    al alcance de un mercadona. Estas recetas estan escritas a mano por nosotros, las erratas se iran corrigiendo
+    ya que esto es una version BETA. </p>
+</div>
 
-<a href="{{ url('recetas', ['Entrantes']) }}" class="btn btn-xs btn-info pull-rigth">Entrantes </a> <!-- //y aquí se pondría Crypt::encrypt(0) -->
-<a href="{{ url('recetas', ['Platos']) }}" class="btn btn-xs btn-info pull-rigth">Platos </a> <!-- //y aquí se pondría Crypt::encrypt(0) -->
-<a href="{{ url('recetas', ['Postres']) }}" class="btn btn-xs btn-info pull-rigth">Postres </a> <!-- //y aquí se pondría Crypt::encrypt(0) -->
-<a href="{{ url('api/recetas', ['Entrantes']) }}" class="btn btn-xs btn-info pull-rigth">Historia pero un json solo </a>
+<a href="{{ url('recetas', ['Entrantes']) }}" class="btn btn-xs btn-info pull-rigth">Entrantes </a>
+<a href="{{ url('recetas', ['Platos']) }}" class="btn btn-xs btn-info pull-rigth">Platos </a> 
+<a href="{{ url('recetas', ['Postres']) }}" class="btn btn-xs btn-info pull-rigth">Postres </a> 
 @endsection

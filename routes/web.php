@@ -17,8 +17,7 @@ Route::get('/', function () {
     return view('pagina01');
 });
 Route::get('/pagina02/{tipo}', function ($tipo) {
-    return view('pagina02', ['tipo'=>$tipo]);
+    return view('pagina02', ['tipo' => $tipo]);
 });
-
 Route::get('recetas/{tipo}', 'RecetaController@carga_plato');
 Route::get('tutorials/{nombre}', 'TutorialController@carga_plato2');
