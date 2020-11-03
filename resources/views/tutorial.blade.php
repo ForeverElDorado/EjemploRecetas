@@ -15,7 +15,6 @@
         </div>
         <div class="col-6">
         <a href="{{ url('tutorial', ['Entrantes']) }}" class="btn btn-xs btn-info pull-rigth">{{$recetas[0]->nombre}} </a> <!-- //y aquí se pondría Crypt::encrypt(0) -->
-
         
         </div>
         <div class="col-3">

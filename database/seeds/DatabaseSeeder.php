@@ -13,5 +13,6 @@ class DatabaseSeeder extends Seeder
     {
         App\Recetas::truncate(); //vacía la tabla de preguntas
         DB::unprepared(file_get_contents('database/Recetas_soloInserts.sql'));
+        DB::unprepared(file_get_contents('database/HowTo_soloInserts.sql'));
     }
 }
