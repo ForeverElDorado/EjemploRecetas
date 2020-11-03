@@ -19,3 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('recetas/{tipo}', 'RecetaController@devuelve_plato');
+
+Route::get('tutorials/{nombre}', 'TutorialController@devuelve_plato2');

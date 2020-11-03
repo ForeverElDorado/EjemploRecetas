@@ -14,18 +14,19 @@
 
         </div>
         <div class="col-6">
-        <button  class = " btn btn-block btn-primary " > {{$recetas[0]->nombre}} </button >
-        <a href="{{ url('tutorial') }}" class="btn btn-xs btn-info pull-rigth">{{$recetas[0]->nombre}} </a> 
-        <!-- //y aquí se pondría Crypt::encrypt(0) -->
+            <a href="{{ url('tutorials', [$recetas[0]->nombre]) }}" class="btn btn-xs btn-info pull-rigth">{{$recetas[0]->nombre}} </a>
+            <!-- //y aquí se pondría Crypt::encrypt(0) -->
             <Br>
-            <button  class = " btn btn-block btn-primary " > {{$recetas[1]->nombre}} </button >
+            <a href="{{ url('tutorials', [$recetas[1]->nombre]) }}" class="btn btn-xs btn-info pull-rigth">{{$recetas[1]->nombre}} </a>
             <Br>
-            <button  class = " btn btn-block btn-primary " > {{$recetas[2]->nombre}} </button >
+            <a href="{{ url('tutorials', [$recetas[2]->nombre]) }}" class="btn btn-xs btn-info pull-rigth">{{$recetas[2]->nombre}} </a>
             <Br>
-            <button  class = " btn btn-block btn-primary " > {{$recetas[3]->nombre}} </button >
+            <a href="{{ url('tutorials', [$recetas[3]->nombre]) }}" class="btn btn-xs btn-info pull-rigth">{{$recetas[3]->nombre}} </a>
             <Br>
-            <button  class = " btn btn-block btn-primary " > {{$recetas[4]->nombre}} </button >
+            <a href="{{ url('tutorials', [$recetas[4]->nombre]) }}" class="btn btn-xs btn-info pull-rigth">{{$recetas[4]->nombre}} </a>
             <Br>
+            <a href="{{ url('api/tutorials', ['nombre']) }}" class="btn btn-xs btn-info pull-rigth">Historia pero un json solo </a>
+
         </div>
         <div class="col-3">
 

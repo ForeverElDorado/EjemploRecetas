@@ -21,3 +21,4 @@ Route::get('/pagina02/{tipo}', function ($tipo) {
 });
 
 Route::get('recetas/{tipo}', 'RecetaController@carga_plato');
+Route::get('tutorials/{nombre}', 'TutorialController@carga_plato2');

@@ -11,14 +11,15 @@
 <div class="container">
     <div class="row">
         <div class="col-3">
-
+        {{$tutorials[0]->nombre}}
         </div>
         <div class="col-6">
-        <a href="{{ url('tutorial', ['Entrantes']) }}" class="btn btn-xs btn-info pull-rigth">{{$recetas[0]->nombre}} </a> <!-- //y aquí se pondría Crypt::encrypt(0) -->
-        
+        {{$tutorials[0]->tutorial}}
+        <br>        
         </div>
+       
         <div class="col-3">
-
+        {{$tutorials[0]->ingredientes}}
         </div>
     </div>
 </div>
